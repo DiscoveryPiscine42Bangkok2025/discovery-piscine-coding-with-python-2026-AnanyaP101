@@ -2,9 +2,9 @@
 
 import sys
 
-argc = len(sys.argv) - 1;
+argc = len(sys.argv) - 1
 
 if (argc != 1):
-	print("none");
+	print("none")
 else:
 	print(sys.argv[1].upper())
